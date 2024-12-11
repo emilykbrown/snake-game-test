@@ -2,7 +2,6 @@ version: '3.3'
 services:
   snake:
     image: 'emilykbrown/snake-game-test:latest'
-    container_name: snake_app
     environment:
       - PORT:3000
     ports:
